@@ -10,6 +10,18 @@
 yarn add @ovh-ux/translate-async-loader
 ```
 
+## Usage
+
+```js
+import 'angular';
+import translateAsyncLoader from '@ovh-ux/translate-async-loader';
+
+angular
+  .module('myApp', [
+    translateAsyncLoader,
+  ]);
+```
+
 ## Test
 
 ```sh
