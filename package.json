@@ -15,6 +15,7 @@
     "dist"
   ],
   "main": "./dist/cjs/index.js",
+  "browser": "./dist/umd/translate-async-loader.js",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint --quiet --fix src",
@@ -24,7 +25,6 @@
     "version": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
   },
-  "browser": "./dist/umd/translate-async-loader.js",
   "devDependencies": {
     "@commitlint/cli": "^7.1.2",
     "@commitlint/config-angular": "^7.1.2",
