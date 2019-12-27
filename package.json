@@ -3,9 +3,11 @@
   "version": "2.0.2",
   "description": "Angular translate asynchronous loader",
   "keywords": [
+    "angularjs",
     "asynchronous",
     "loader",
     "ovh",
+    "ovhcloud",
     "translate"
   ],
   "repository": "ovh-ux/ng-translate-async-loader",
@@ -24,7 +26,6 @@
     "lint:js": "eslint --quiet --fix --format=pretty src",
     "lint:md": "eslint --quiet --fix --format=pretty --ext .md .",
     "prepare": "rollup -c",
-    "start": "rollup -c --watch",
     "test": "yarn run lint",
     "version": "npx conventional-changelog-cli -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
